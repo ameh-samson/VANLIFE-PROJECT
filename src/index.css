@@ -43,6 +43,10 @@ header a {
   font-size: 16px;
 }
 
+header nav a {
+  padding-left: 12px;
+}
+
 .link-button {
   display: inline-block;
   text-decoration: none;
