@@ -15,6 +15,7 @@ body {
   padding: 0;
   font-family: "Inter", sans-serif;
   height: 100vh;
+  background: #fff7ed;
 }
 
 h1,
@@ -23,7 +24,6 @@ p {
 }
 
 header {
-  background: #fff7ed;
   height: 112px;
   padding: 34px 26px;
   display: flex;
@@ -143,4 +143,21 @@ header a:hover {
   padding: 12px 22px;
 }
 
-/* product section */
+/* van-list-section */
+
+.van-list-section {
+  padding-inline: 26px;
+}
+
+.van-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 33px;
+  margin-top: 56px;
+}
+
+.van-tile img {
+  width: 100%;
+  border-radius: 5px;
+}
