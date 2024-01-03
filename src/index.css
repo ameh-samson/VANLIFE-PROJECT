@@ -50,6 +50,7 @@ header a {
   font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 
 /* Home page */
