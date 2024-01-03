@@ -39,4 +39,43 @@ header a {
   text-decoration: none;
   color: #161616;
   font-weight: 600;
+  font-size: 16px;
+}
+
+/* Home page */
+
+.home-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url("./assets/images/home-page.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 380px;
+  padding: 65px 26px;
+  color: #ffffff;
+}
+
+.home-section h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.16;
+}
+
+.home-section p {
+  margin-top: 22px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.home-section a {
+  display: inline-block;
+  margin-top: 52px;
+  text-decoration: none;
+  background: #ff8c38;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  padding-block: 10px;
+  width: 100%;
+  border-radius: 5px;
 }
