@@ -42,11 +42,21 @@ header a {
   font-size: 16px;
 }
 
+.link-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* Home page */
 
 .home-section {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
-    url("./assets/images/home-page.png");
+    url("./assets/images/home-hero.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,14 +78,55 @@ header a {
 }
 
 .home-section a {
-  display: inline-block;
   margin-top: 52px;
-  text-decoration: none;
   background: #ff8c38;
-  color: #ffffff;
-  text-align: center;
-  font-weight: 700;
   padding-block: 10px;
   width: 100%;
+}
+
+/* About section */
+
+.about-section-hero-image {
+  max-width: 100%;
+}
+
+.about-section-content {
+  padding-inline: 26px;
+  margin-bottom: 55px;
+  color: #161616;
+}
+
+.about-section-content h1 {
+  margin-top: 48px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.about-section-content p {
+  margin-top: 31px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.about-section-cta {
+  background: #ffcc8d;
+  color: #161616;
+  margin-inline: 26px;
+  padding: 37px 32px;
   border-radius: 5px;
+  margin-bottom: 53px;
+}
+
+.about-section-cta h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.about-section-cta a {
+  background: #161616;
+  font-size: 16px;
+  padding: 12px 22px;
 }
