@@ -8,8 +8,8 @@ The data gotten from the server was displayed using "map method"
 
 In this project, the React Hooks used are:
 
-# 1 useEffect: To fetch the data from the mimicked database which is located in the server js
+1. useEffect: To fetch the data from the mimicked database which is located in the server js
 
-# 2 useEffect: This is used to hold the data gotten from the api
+2. useEffect: This is used to hold the data gotten from the api
 
-# 3 useParams: To get the vans details without having to perform a fetch request again for better performance, ( { useParams } from "react-router-dom") was used. The id in the ( <Route path="/vans/:id"/>) was replaced by the id gotten from the fetched data
+3. useParams: To get the vans details without having to perform a fetch request again for better performance, ( { useParams } from "react-router-dom") was used. The id in the ( <Route path="/vans/:id"/>) was replaced by the id gotten from the fetched data
