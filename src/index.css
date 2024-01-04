@@ -163,6 +163,26 @@ header a:hover {
   border-radius: 5px;
 }
 
+.van-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.van-info .heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.van-info .duration {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
 .van-type {
   height: 34px;
   padding: 6px 26px;
