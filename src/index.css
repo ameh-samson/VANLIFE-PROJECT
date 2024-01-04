@@ -16,6 +16,7 @@ body {
   font-family: "Inter", sans-serif;
   height: 100vh;
   background: #fff7ed;
+  color: #161616;
 }
 
 h1,
@@ -174,6 +175,7 @@ header a:hover {
   background-color: #ffead0;
   color: #4d4d4d;
   transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .van-type:hover {
