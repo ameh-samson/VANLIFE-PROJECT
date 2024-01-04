@@ -21,6 +21,7 @@ export default function Vans() {
       <i className={`van-type ${van.type} selected`}>{van.type}</i>
     </div>
   ));
+
   return (
     <div className="van-list-section">
       <div className="van-list-grid">{vanElements}</div>
