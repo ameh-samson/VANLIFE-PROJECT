@@ -14,4 +14,4 @@
 
 3. useParams: To get the vans details without having to perform a fetch request again for better performance, ( { useParams } from "react-router-dom") was used. The id in the ( <Route path="/vans/:id"/>) was replaced by the id gotten from the fetched data
 
-- Nested Route: this is used when you want to keep displaying some UI on the page but also want to display more (e.g /host, /host/income, /host/reviews, /host/vans, /host/vans/:id)
+- Nested Route: this is used when you want to keep displaying some UI on the page but also want to display more (e.g /host, /host/income, /host/reviews, /host/vans, /host/vans/:id). This is also explain in the docs in https://remix.run/
