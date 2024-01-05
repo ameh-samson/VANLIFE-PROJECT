@@ -48,7 +48,8 @@ header nav a {
   padding-left: 20px;
 }
 
-header a:hover {
+header a:hover,
+.host-navbar a:hover {
   color: #161616;
   text-decoration: underline;
 }
@@ -262,4 +263,16 @@ footer.footer p {
   width: 100%;
   margin-top: 32px;
   background: #ff8c38;
+}
+
+/* host navigation */
+.host-navbar a {
+  color: #4d4d4d;
+  font-weight: 500;
+  padding: 5px 20px;
+}
+
+.host-navbar a:hover {
+  color: #161616;
+  font-weight: 600;
 }

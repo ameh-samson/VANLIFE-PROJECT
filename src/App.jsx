@@ -8,7 +8,7 @@ import Income from "./pages/host/Income";
 import Reviews from "./pages/host/Reviews";
 
 import Layout from "./components/Layout";
-import HostLayout from "./pages/host/HostLayout";
+import HostLayout from "./components/HostLayout";
 
 import "./server";
 
