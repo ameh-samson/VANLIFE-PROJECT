@@ -48,7 +48,7 @@ header nav a,
 .host-navbar a {
   color: #4d4d4d;
   font-weight: 500;
-  padding: 5px 20px;
+  padding-left: 20px;
 }
 
 header a:hover,
