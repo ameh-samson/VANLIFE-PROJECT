@@ -65,6 +65,18 @@ header a:hover {
   border: none;
 }
 
+footer.footer {
+  background: #252525;
+  padding-block: 26px;
+  text-align: center;
+}
+
+footer.footer p {
+  color: #aaaaaa;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* Home page */
 
 .home-section {
