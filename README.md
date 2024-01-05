@@ -21,4 +21,4 @@
 - To avoid repeating ourselves in as regards the Header, a Layout component was made. The App component was then replaced from a self closing <Route> to take up children and any props passed into it can affect other.
   To be able to have access to the children so to say, "outlet come into place" (import { Outlet } from "react-router-dom")
 
-- To avoid repetition of path in the host path in App, relative path come in place. Even without the "/", react under the hood will treat it as a relative path
+- To avoid repetition of path in the host path in App, relative path come in place. Even without the "/", react under the hood will treat it as a relative path.
