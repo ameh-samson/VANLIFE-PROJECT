@@ -245,7 +245,7 @@ footer.footer p {
 /* van details page */
 
 .van-detail-container {
-  padding: 40px 26px 85px;
+  padding: 40px 26px 0;
 }
 
 .van-detail img {
