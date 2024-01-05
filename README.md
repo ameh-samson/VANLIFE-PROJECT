@@ -17,3 +17,5 @@
 - Nested Route: this is used when you want to keep displaying some UI on the page but also want to display more (e.g /host, /host/income, /host/reviews, /host/vans, /host/vans/:id). This is also explain in the docs in https://remix.run/
 
 * The navbar and footer is on every aspect of the page, hence "layout route come into place" as explain in the react router doc https://reactrouter.com/en/main/start/concepts#layout-routes
+
+To avoid repeating ourselves in as regards the Header, a Layout component was made. The App component was then replaced from a self closing <Route> to take up children and any props passed into it can affect other
