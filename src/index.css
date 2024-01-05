@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   background: #fff7ed;
   color: #161616;
 }
@@ -66,6 +66,7 @@ header a:hover {
 }
 
 footer.footer {
+  height: 75px;
   background: #252525;
   padding-block: 26px;
   text-align: center;
