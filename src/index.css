@@ -44,13 +44,17 @@ a {
   font-size: 16px;
 }
 
-header nav a {
-  padding-left: 20px;
+header nav a,
+.host-navbar a {
+  color: #4d4d4d;
+  font-weight: 500;
+  padding: 5px 20px;
 }
 
 header a:hover,
 .host-navbar a:hover {
   color: #161616;
+  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -268,15 +272,4 @@ footer.footer p {
 /* host navigation */
 .host-navbar {
   padding-top: 32px;
-}
-
-.host-navbar a {
-  color: #4d4d4d;
-  font-weight: 500;
-  padding: 5px 20px;
-}
-
-.host-navbar a:hover {
-  color: #161616;
-  font-weight: 600;
 }
