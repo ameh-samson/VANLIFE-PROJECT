@@ -58,6 +58,10 @@ header a:hover,
   text-decoration: underline;
 }
 
+main {
+  margin-bottom: 53px;
+}
+
 .link-button {
   display: inline-block;
   text-decoration: none;
@@ -145,7 +149,6 @@ footer.footer p {
   margin-inline: 26px;
   padding: 37px 32px;
   border-radius: 5px;
-  margin-bottom: 53px;
 }
 
 .about-section-cta h2 {
@@ -172,7 +175,6 @@ footer.footer p {
   justify-content: center;
   gap: 33px;
   padding-top: 56px;
-  padding-bottom: 85px;
 }
 
 .van-tile img {
