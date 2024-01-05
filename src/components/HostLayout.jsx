@@ -12,6 +12,7 @@ export default function HostLayout() {
       <nav className="host-navbar">
         <NavLink
           to="/host"
+          end
           style={({ isActive }) => (isActive ? activeStyle : null)}
         >
           Dashboard
