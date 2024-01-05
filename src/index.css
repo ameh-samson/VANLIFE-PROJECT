@@ -25,7 +25,6 @@ p {
 }
 
 header {
-  height: 112px;
   padding: 34px 26px;
   display: flex;
   align-items: center;
@@ -66,7 +65,6 @@ header a:hover {
 }
 
 footer.footer {
-  height: 75px;
   background: #252525;
   padding-block: 26px;
   text-align: center;
