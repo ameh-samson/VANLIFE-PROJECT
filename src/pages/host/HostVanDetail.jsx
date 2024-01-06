@@ -9,18 +9,20 @@ export default function HostVanDetail() {
     fetch(`/api/host/vans/${id}`)
       .then((res) => res.json())
       .then((data) => setCurrentVan(data.vans[0]));
-  });
-
-  const currentVanSelected = (
-    <>
-      <img src={currentVan.imageUrl} width={150} alt={currentVan.name} />
-      <h2>{currentVan.name}</h2>
-      <p>{currentVan.price}</p>
-      <p>{currentVan.type}</p>
-    </>
-  );
+  }, []);
 
   return (
-    {currentVan?}
+    <>
+      {!currentVan ? (
+        <h1>Loading.....</h1>
+      ) : (
+        <div>
+          <img src={currentVan.imageUrl} width={150} alt={currentVan.name} />
+          <h2>{currentVan.name}</h2>
+          <p>{currentVan.price}</p>
+          <p>{currentVan.type}</p>
+        </div>
+      )}
+    </>
   );
 }
