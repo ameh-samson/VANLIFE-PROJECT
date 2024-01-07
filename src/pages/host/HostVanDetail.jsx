@@ -12,17 +12,23 @@ export default function HostVanDetail() {
   }, []);
 
   return (
-    <>
+    <section>
       {!currentVan ? (
         <h1>Loading.....</h1>
       ) : (
-        <div>
-          <img src={currentVan.imageUrl} width={150} alt={currentVan.name} />
-          <h2>{currentVan.name}</h2>
-          <p>{currentVan.price}</p>
-          <p>{currentVan.type}</p>
+        <div className="host-van-detail-layout-container">
+          <div className="host-van-detail">
+            <img src={currentVan.imageUrl} />
+            <div className="host-van-detail-info-text">
+              <i className={`van-type van-type-${currentVan.type}`}>
+                {currentVan.type}
+              </i>
+              <h3>{currentVan.name}</h3>
+              <h4>${currentVan.price}/day</h4>
+            </div>
+          </div>
         </div>
       )}
-    </>
+    </section>
   );
 }
