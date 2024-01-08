@@ -5,7 +5,7 @@ export default function Vans() {
   const [vans, setVans] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const filterType = searchParams.get("type");
+  const filteredType = searchParams.get("type");
 
   useEffect(() => {
     fetch("/api/vans")
@@ -13,7 +13,13 @@ export default function Vans() {
       .then((data) => setVans(data.vans));
   }, []);
 
-  const vanElements = vans.map((van) => (
+  // filters the van based on URL query
+  const displayVans = filteredType
+    ? vans.filter((van) => van.type.toLowerCase() === filteredType)
+    : vans;
+
+  // vans replaced with displayedVans so as to ensured it is filtered
+  const vanElements = displayVans.map((van) => (
     <div key={van.id} className="van-tile">
       <Link
         to={`/vans/${van.id}`}
