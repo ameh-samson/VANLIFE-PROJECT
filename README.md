@@ -23,4 +23,4 @@
 
 - To avoid repetition of path in the host path in App, relative path come in place. Even without the "/", react under the hood will treat it as a relative path.
 
-- import { useOutletContext } from "react-router-dom" is used to pass down the prop from the parent <Outlet /> to the children as explained in https://reactrouter.com/en/main/hooks/use-outlet-context
+- import { useOutletContext } from "react-router-dom" is used to pass down the prop from the parent <Outlet /> to the children as explained in https://reactrouter.com/en/main/hooks/use-outlet-context . Outlet is a context provider
