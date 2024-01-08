@@ -466,6 +466,7 @@ footer.footer p {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
+  text-align: justify;
 }
 .host-van-detail-info > h4 > span {
   font-weight: 500;
