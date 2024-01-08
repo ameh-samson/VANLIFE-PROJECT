@@ -230,6 +230,7 @@ footer.footer p {
 
 .van-type.clear-filters {
   background: none;
+  text-decoration: underline;
 }
 
 .van-type:hover {
