@@ -14,12 +14,12 @@ export default function Vans() {
   }, []);
 
   // filters the van based on URL query
-  const displayVans = filteredType
+  const displayedVans = filteredType
     ? vans.filter((van) => van.type.toLowerCase() === filteredType)
     : vans;
 
   // vans replaced with displayedVans so as to ensured it is filtered
-  const vanElements = displayVans.map((van) => (
+  const vanElements = displayedVans.map((van) => (
     <div key={van.id} className="van-tile">
       <Link
         to={`/vans/${van.id}`}
