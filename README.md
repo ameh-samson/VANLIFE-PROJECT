@@ -27,3 +27,5 @@
 
 - Search/Query parameters represents a change in the UI (sorting, filtering, pagination). Used as a single source of truth (ReactState, local state or external library like Redux) https://reactrouter.com/en/main/hooks/use-search-params
   Params works like state in react https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+
+- State can be added to <Link>
