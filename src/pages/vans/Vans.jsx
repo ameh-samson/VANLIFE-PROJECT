@@ -41,6 +41,7 @@ export default function Vans() {
   return (
     <div className="van-list-section">
       <h1>Explore our van options</h1>
+
       <div className="van-list-filter-buttons">
         <button
           onClick={() => setSearchParams({ type: "simple" })}

@@ -75,14 +75,14 @@ main {
 
 .back-button {
   display: block;
-  color: black;
+  color: #4d4d4d;
   text-decoration: none;
-  margin-top: 60px;
-  margin-left: 26px;
+  margin-bottom: 50px;
 }
 
 .back-button span:hover {
   text-decoration: underline;
+  color: #0a0a0a;
 }
 
 footer.footer {
