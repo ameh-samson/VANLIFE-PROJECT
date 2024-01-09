@@ -12,7 +12,7 @@ export default function VanDetail() {
       .then((data) => setVan(data.vans));
   }, [params.id]);
 
-  // object chaining
+  // optional chaining
   const search = location.state?.search || "";
 
   return (
