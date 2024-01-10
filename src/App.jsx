@@ -16,6 +16,7 @@ import HostVanPhotos from "./pages/host/HostVanPhotos";
 import HostVanPricing from "./pages/host/HostVanPricing";
 
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
 
 import Layout from "./components/Layout";
 import HostLayout from "./components/HostLayout";
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="vans" element={<Vans />} />
           <Route path="vans/:id" element={<VanDetail />} />
+          <Route path="login" element={<Login />} />
 
           <Route path="host" element={<HostLayout />}>
             <Route index element={<Dashboard />} />
