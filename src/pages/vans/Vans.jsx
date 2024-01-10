@@ -5,13 +5,16 @@ import { getVans } from "../../api";
 export default function Vans() {
   const [vans, setVans] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
+  const [loading, setLoading] = useState(false);
 
   const filteredType = searchParams.get("type");
 
   useEffect(() => {
     async function loadVans() {
+      setLoading(true);
       const data = await getVans();
       setVans(data);
+      setLoading(false);
     }
 
     loadVans();
@@ -42,6 +45,11 @@ export default function Vans() {
       </Link>
     </div>
   ));
+
+  // initialize the loading state
+  if (loading) {
+    return <h1>Loading...</h1>;
+  }
 
   return (
     <div className="van-list-section">
