@@ -570,3 +570,7 @@ footer.footer p {
   font-family: "Inter", sans-serif;
   cursor: pointer;
 }
+
+.login-first {
+  color: red;
+}
