@@ -29,3 +29,5 @@
   Params works like state in react https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
 
 - State can be added to <Link> , useLocation to access the state
+
+- The function of "Navigate" in router is whenever it is rendered, it sends to the next route
