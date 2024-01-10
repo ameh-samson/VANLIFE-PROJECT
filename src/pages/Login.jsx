@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Login() {
   const [loginFormData, setLoginFormData] = useState({
     email: "",
     password: "",
   });
+
+  const location = useLocation();
+  console.log(location);
 
   function handleSubmit(e) {
     e.preventDefault();
