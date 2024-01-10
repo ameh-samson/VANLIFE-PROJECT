@@ -58,6 +58,11 @@ header a:hover,
   text-decoration: underline;
 }
 
+.login-icon {
+  width: 18px;
+  height: 18px;
+}
+
 main {
   margin-bottom: 53px;
 }
