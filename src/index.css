@@ -97,6 +97,10 @@ footer.footer p {
   font-weight: 500;
 }
 
+.van-loading {
+  padding-inline: 26px;
+}
+
 /* Home page */
 
 .home-section {
